@@ -49,7 +49,9 @@ const Index = () => {
           <Text fontSize="xl" mb={5}>
             Explore the exclusive content and services.
           </Text>
-          <Button rightIcon={<FaPlus />}>Explore Memberships</Button>
+          <Button rightIcon={<FaPlus />} as={NavLink} to="/memberships">
+            Explore Memberships
+          </Button>
         </Box>
 
         <Flex wrap="wrap" justify="center" mt={10} spacing={4}>
