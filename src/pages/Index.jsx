@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Text, Menu, MenuButton, MenuList, MenuItem, VStack, Input, useBreakpointValue, FormControl, FormLabel, InputGroup, InputRightElement } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Text, Menu, MenuButton, MenuList, MenuItem, VStack, Input, useBreakpointValue, FormControl, FormLabel, InputGroup, InputRightElement, Link } from "@chakra-ui/react";
 import { FaChevronDown, FaCreditCard, FaLock, FaUserCircle, FaEnvelope, FaPlus } from "react-icons/fa";
 
 const Index = () => {
@@ -13,7 +13,7 @@ const Index = () => {
       <Text fontWeight="bold" mb={4}>
         {price}
       </Text>
-      <Button colorScheme="teal" variant="solid">
+      <Button colorScheme="teal" variant="solid" as={Link} to={`/membership/${title.toLowerCase().replace(" ", "-")}`}>
         Join Now
       </Button>
     </Box>
