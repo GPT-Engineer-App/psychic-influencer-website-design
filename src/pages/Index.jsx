@@ -51,11 +51,11 @@ const Index = () => {
           <Button rightIcon={<FaPlus />}>Explore Memberships</Button>
         </Box>
 
-        <VStack spacing={4} align="stretch" mt={10}>
+        <Flex wrap="wrap" justify="center" mt={10} spacing={4}>
           <MembershipTier title="Bronze Tier" description="Access to basic content and community." price="$9.99/month" />
           <MembershipTier title="Silver Tier" description="Everything in Bronze plus exclusive materials." price="$19.99/month" />
           <MembershipTier title="Gold Tier" description="All benefits including personal sessions." price="$29.99/month" />
-        </VStack>
+        </Flex>
       </Flex>
 
       {/* Sign Up Section: This would typically be on another page but is included here for demonstration */}
