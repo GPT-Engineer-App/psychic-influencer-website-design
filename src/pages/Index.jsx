@@ -55,6 +55,7 @@ const Index = () => {
           <MembershipTier title="Bronze Tier" description="Access to basic content and community." price="$9.99/month" />
           <MembershipTier title="Silver Tier" description="Everything in Bronze plus exclusive materials." price="$19.99/month" />
           <MembershipTier title="Gold Tier" description="All benefits including personal sessions." price="$29.99/month" />
+          <MembershipTier title="Diamond Tier" description="Premium benefits plus VIP customer support and services." price="$39.99/month" />
         </Flex>
       </Flex>
 
